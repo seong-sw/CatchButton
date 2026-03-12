@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             movingButton = new Button();
+            restartButton = new Button();
             SuspendLayout();
             // 
             // movingButton
@@ -43,11 +44,22 @@
             movingButton.MouseClick += movingButton_MouseClick;
             movingButton.MouseEnter += movingButton_MouseEnter;
             // 
+            // restartButton
+            // 
+            restartButton.Location = new Point(1160, 623);
+            restartButton.Name = "restartButton";
+            restartButton.Size = new Size(86, 34);
+            restartButton.TabIndex = 1;
+            restartButton.Text = "Restart";
+            restartButton.UseVisualStyleBackColor = true;
+            restartButton.MouseClick += restartButton_MouseClick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1258, 669);
+            Controls.Add(restartButton);
             Controls.Add(movingButton);
             Name = "Form1";
             Text = "Button Location: (12, 12), Score: 1000";
@@ -57,5 +69,6 @@
         #endregion
 
         private Button movingButton;
+        private Button restartButton;
     }
 }
