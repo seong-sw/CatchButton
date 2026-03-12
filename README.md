@@ -10,3 +10,13 @@
 
 -2단계 코드 실행 화면
 <img width="1268" height="718" alt="image" src="https://github.com/user-attachments/assets/7730f7a3-43b2-4e03-ab34-ef342ff16211" />
+
+-3단계 코드 실행 화면
+<img width="1272" height="718" alt="image" src="https://github.com/user-attachments/assets/0284d92f-5604-431d-8ba5-7ca0539bc63b" />
+
+-4단계 코드 실행 화면
+<img width="1273" height="731" alt="image" src="https://github.com/user-attachments/assets/00916006-9a6e-4ec4-82a2-6b1dbed39805" />
+
+## 어려웠던 점
+- WinForm에 있는 시스템 쪽 함수가 생소했지만, 공식 문서를 읽어 SystemSound 클래스를 찾아 효과음을 적용할 수 있었음
+- 코드에 있는 이벤트를 binding 하는 것이 처음이라 작동하지 않을 때 코드에 있는 이벤트가 객체에 bind가 되지 않아 생긴 문제라는 것을 찾는데 조금 시간이 걸렸음
