@@ -12,7 +12,7 @@
 <img width="1268" height="718" alt="image" src="https://github.com/user-attachments/assets/7730f7a3-43b2-4e03-ab34-ef342ff16211" />
 
 -3단계 코드 실행 화면
-<img width="1272" height="718" alt="image" src="https://github.com/user-attachments/assets/0284d92f-5604-431d-8ba5-7ca0539bc63b" />
+<img width="1282" height="725" alt="image" src="https://github.com/user-attachments/assets/fcfdcf6d-4f60-4094-b2a6-44fa564a71e1" />
 
 -4단계 코드 실행 화면
 <img width="1273" height="731" alt="image" src="https://github.com/user-attachments/assets/00916006-9a6e-4ec4-82a2-6b1dbed39805" />
