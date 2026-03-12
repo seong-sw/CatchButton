@@ -40,7 +40,7 @@
             movingButton.TabIndex = 0;
             movingButton.Text = "나를 잡아줘!";
             movingButton.UseVisualStyleBackColor = true;
-            movingButton.Click += movingButton_Click;
+            movingButton.MouseClick += movingButton_MouseClick;
             movingButton.MouseEnter += movingButton_MouseEnter;
             // 
             // Form1

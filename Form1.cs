@@ -7,11 +7,6 @@ namespace CatchButton
             InitializeComponent();
         }
 
-        private void movingButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void movingButton_MouseEnter(object sender, EventArgs e)
         {
             // sender 객체를 변수로 정의
@@ -29,6 +24,19 @@ namespace CatchButton
 
             //Form title에 button의 좌표를 표시
             this.Text = $"Button Location: ({x}, {y})";
+
+            // 효과음 출력
+            System.Media.SystemSounds.Beep.Play();
+        }
+
+        private void movingButton_MouseClick(object sender, MouseEventArgs e)
+        {
+            // 버튼에 클릭을 감지하여 축하 메시지 및 효과음 출력
+            if (e.Button == MouseButtons.Left)
+            {
+                MessageBox.Show("축하합니다!");
+                System.Media.SystemSounds.Asterisk.Play();
+            }
         }
     }
 }
