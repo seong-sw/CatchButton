@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            movingButton = new Button();
+            SuspendLayout();
+            // 
+            // movingButton
+            // 
+            movingButton.Font = new Font("Pretendard JP Variable SemiBold", 18F, FontStyle.Bold, GraphicsUnit.Point, 128);
+            movingButton.Location = new Point(12, 12);
+            movingButton.Name = "movingButton";
+            movingButton.Size = new Size(200, 200);
+            movingButton.TabIndex = 0;
+            movingButton.Text = "나를 잡아줘!";
+            movingButton.UseVisualStyleBackColor = true;
+            movingButton.Click += movingButton_Click;
+            movingButton.MouseEnter += movingButton_MouseEnter;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(10F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1258, 669);
+            Controls.Add(movingButton);
+            Name = "Form1";
             Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button movingButton;
     }
 }
