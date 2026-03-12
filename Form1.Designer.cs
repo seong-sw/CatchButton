@@ -50,7 +50,7 @@
             ClientSize = new Size(1258, 669);
             Controls.Add(movingButton);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Button Location: (12, 12), Score: 1000";
             ResumeLayout(false);
         }
 
